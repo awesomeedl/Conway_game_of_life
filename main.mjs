@@ -29,7 +29,7 @@ const lines = new Graphics();
 app.stage.addChild(lines)
 drawLines();
 
-const grid = new Array(colCount * rowCount * 2);
+const grid = new Int8Array(colCount * rowCount * 2);
 initialize();
 
 let calculate = false;
